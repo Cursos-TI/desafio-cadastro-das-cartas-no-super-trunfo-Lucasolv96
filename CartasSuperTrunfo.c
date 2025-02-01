@@ -18,5 +18,38 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+   
+    char pais1[30], pais2[30], pais3[30], pais4[30];
+    char Estado1[30], Estado2[30], Estado3[30], Estado4[30];
+    char cidade1[30], cidade2[30], cidade3[30], cidade4[30];
+
+   
+   
+   
+    printf("========================================\n");
+    printf("|        SUPER TRUNFO - PAÍSES          |\n");
+    printf("========================================\n");
+
+
+    printf("Seja Bem-Vindo ao Super trunfo - Países\n");
+    printf("\nOrientações: cadastre as informações das cidades conforme solicitadas\n\n");
+
+    printf("Digite o nome de um país: \n");
+    scanf("%s",  pais1);
+
+    printf("Digite o de um Estado desse mesmo país: \n");
+    scanf("%s", Estado1);
+
+    printf("Digite o nome de uma cidade desse mesmo Estado: \n");
+    scanf("%s", cidade1);
+
+    
+
+
+
+    
+
+
+
     return 0;
 }
