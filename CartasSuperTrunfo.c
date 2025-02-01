@@ -23,6 +23,10 @@ int main() {
     char Estado1[30], Estado2[30], Estado3[30], Estado4[30];
     char cidade1[30], cidade2[30], cidade3[30], cidade4[30];
     float populacao1, populacao2, populacao3, populacao4;
+    float area1, area2, area3, area4;
+    float pib1, pib2, pib3, pib4;
+    int ponto_turistico1, ponto_turistico2, ponto_turistico3, ponto_turistico4;
+
 
 
    
@@ -46,9 +50,20 @@ int main() {
     scanf("%s", cidade1);
 
     printf("Digite o tamanho da população desta mesma cidade: \n");
-    scanf("%2.f", populacao1);
+    scanf("%f", populacao1);
+
+    printf("Quantos quilômetros possui esta mesma cidade: \n");
+    scanf("%f", area1);
+
+    printf("Digite o valor do PIB desta mesma cidade: \n");
+    scanf("%f", pib1);
+
+
+
+
+
     
-    
+
 
 
 
