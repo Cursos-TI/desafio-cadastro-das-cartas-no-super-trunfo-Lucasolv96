@@ -22,6 +22,8 @@ int main() {
     char pais1[30], pais2[30], pais3[30], pais4[30];
     char Estado1[30], Estado2[30], Estado3[30], Estado4[30];
     char cidade1[30], cidade2[30], cidade3[30], cidade4[30];
+    float populacao1, populacao2, populacao3, populacao4;
+
 
    
    
@@ -43,7 +45,12 @@ int main() {
     printf("Digite o nome de uma cidade desse mesmo Estado: \n");
     scanf("%s", cidade1);
 
+    printf("Digite o tamanho da população desta mesma cidade: \n");
+    scanf("%2.f", populacao1);
     
+    
+
+
 
 
 
