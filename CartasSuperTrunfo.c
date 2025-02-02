@@ -19,7 +19,7 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
    
-    char pais1[30], pais2[30], pais3[30], pais4[30];
+    char pais1[10], pais2[30], pais3[30], pais4[30];
     char Estado1[30], Estado2[30], Estado3[30], Estado4[30];
     char cidade1[30], cidade2[30], cidade3[30], cidade4[30];
     float populacao1, populacao2, populacao3, populacao4;
@@ -41,35 +41,22 @@ int main() {
     printf("\nOrientações: cadastre as informações das cidades conforme solicitadas\n\n");
 
     printf("Digite o nome de um país: \n");
-    scanf("%s",  pais1);
+    scanf(" %s", &pais1[10]);
 
     printf("Digite o de um Estado desse mesmo país: \n");
-    scanf("%s", Estado1);
+    scanf(" %s", &Estado1[30]);
 
     printf("Digite o nome de uma cidade desse mesmo Estado: \n");
-    scanf("%s", cidade1);
+    scanf(" %s", &cidade1[30]);
 
-    printf("Digite o tamanho da população desta mesma cidade: \n");
-    scanf("%f", populacao1);
+    printf("Digite o quantitativo da população desta mesma cidade: \n");
+    scanf(" %f", &populacao1);
 
     printf("Quantos quilômetros possui esta mesma cidade: \n");
-    scanf("%f", area1);
+    scanf(" %f", &area1);
 
     printf("Digite o valor do PIB desta mesma cidade: \n");
-    scanf("%f", pib1);
-
-
-
-
-
-    
-
-
-
-
-
-
-    
+    scanf(" %f", &pib1);
 
 
 
